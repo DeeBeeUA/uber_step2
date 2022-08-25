@@ -335,9 +335,10 @@ nav
 	padding: 49px 0
 	background: url('../img/bg/map.jpg') center (center / cover) no-repeat
 	&_link
+		margin-left: 50%
+		transform: translateX(-50%)
+		display: inline-block
 		margin-top: 486px
-		display: block
-		text-align: center
 		font-size: 15px
 		font-weight: 400
 		text-transform: uppercase
@@ -345,3 +346,34 @@ nav
 		&:hover
 			text-decoration: none
 			color: $second-color
+footer
+	min-height: 148px
+	padding: 14px 23px 39px 23px
+.line
+	margin: 0 auto
+	width: 299px
+	height: 4px
+	background-color: #1fbad6
+.blocks
+	display: flex
+	justify-content: space-between
+	margin-top: 33px
+	&_social
+		display: flex
+		gap: 7px
+		vertical-align: middle
+		&_icons
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+	&_img
+		display: flex
+		gap: 5.5px
+			
+.subfooter
+	height: 8px
+	background-color: #070716
